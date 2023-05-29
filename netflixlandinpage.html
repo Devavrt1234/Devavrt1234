@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NETFLIX|INDIA</title>
+    <style>
+     
+        body{
+            margin:0;
+            background-image:url('https://assets.nflxext.com/ffe/siteui/vlv3/70805ddd-f38c-4e25-94cd-b5015e444ee0/6e99205c-e34b-4dbe-ba45-b026023791bc/IN-en-20230508-popsignuptwoweeks-perspective_alpha_website_large.jpg');
+            
+        }
+        .heading{
+              height:20%;
+              display: flex;
+         
+              
+        }
+        #image{
+            width:50%;
+            display:flex;
+            justify-content:center;
+            padding:40px;
+        }
+       
+        #buttons{
+            width:50%;
+            padding:40px 40px;
+            display: flex;
+            text-align:center;
+            flex-direction:row;
+            justify-content: right;
+            font-size:10px;
+            
+        }
+
+       
+        #buttons:hover{
+            cursor: pointer;
+        }
+        #main{
+            height:80%;
+            display: flex;
+            flex-direction: column;
+            justify-content:center;
+            align-items:center;
+            color: white;
+        }
+        #signin{
+            background-color: red;
+            padding:8px 14px;
+            border:2px solid black;
+            font-size:10px;
+            border-radius:12px;
+            font-weight: bold;
+            width:20%;
+        }
+        h1{
+            font-size:55px;
+            margin:0;
+        }
+        p{
+            margin:13px;
+        }
+        #p1{
+           font-weight: 400;
+           font-size:19px;
+        }
+        #p2{
+            font-weight: 400;
+            font-size:19px;
+        }
+        #shadow{
+           background-color: rgba(0, 0, 0,0.5);
+           height:100vh;
+        }
+        a{
+             text-decoration: none;  
+             color:black;
+             font-size: 20px;
+        }
+       
+        .container{
+        margin: 4px 5px;
+        padding: 75px;
+        width: 43%;
+        border-radius: 30px;
+        display: flex;
+        justify-content: space-evenly;
+        height:100vh;
+        color:rgb(210, 198, 198);
+        flex-direction: row;
+        }
+        
+        .form-group input {
+        font-family: 'Baloo Bhai';
+        text-align: center;
+        width: 400px;
+        padding:9px; 
+        margin: 5px auto;
+        font-size: 20px;
+        border-radius: 5px;
+        position: sticky;
+        display: flex;
+        justify-content: space-around;
+        height:10px;
+        background-color: rgb(58, 54, 54);
+        border:2px solid black;
+    }
+    #limage{
+        /* display: flex; */
+        /* flex-direction: column; */
+        /* justify-content: center; */
+        width:100px;
+        height:10px;
+        margin:12px;
+        padding:10px;
+        position:sticky;
+        top:30px;
+        left:10px;
+       
+
+    }
+    .btn{
+        font-family: 'Baloo Bhai';
+        text-align: center; 
+        width: 150px;
+        padding:4px;
+        margin: 5px auto;
+        font-size: 20px;
+        border-radius: 5px;
+        position: sticky;
+        display: flex;
+        justify-content: center;
+        height:35px;
+        color:rgb(148, 137, 137);
+        background-color: rgb(58, 54, 54);
+        border:2px solid black;
+    }
+   
+    </style>
+    </head>
+    <body>
+    <!-- <h1>Hi Everyone!</h1> -->
+    <!-- <pre>Lorem.
+    Aut, modi!
+    Cum, laborum modi?
+    Eligendi eaque ullam deleniti? -->
+    <!-- <pre>i provide spaces as you want in your content on web page</pre> -->
+    <!-- <hr> <br> <img> are self-closing tags -->
+    <!-- Necessitatibus earum illo voluptas nulla!
+    Quos omnis facere cupiditate dolorum tempore.
+    Aperiam officiis laudantium neque, nobis provident deleniti.
+    Voluptatem et fugiat quasi ratione amet eaque quidem. -->
+    <!-- Exercitationem, maiores adipisci quidem quibusdam natus minus mollitia hic.
+    Dolore beatae ipsa laboriosam, itaque adipisci nihil ducimus numquam odit!\</pre> -->
+    <div id="shadow">
+        <div class="heading">
+            <div id="image">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Netflix_2015_logo.svg/2560px-Netflix_2015_logo.svg.png" width="150" height="50">
+            </div>
+            <div id="buttons">
+                <button id="signin"><a href="https://www.netflix.com/in/login?nextpage=https%3A%2F%2Fwww.netflix.com%2Fbrowse">Sign In</a></button>&nbsp;&nbsp;&nbsp;
+                <button id="signin"><a href="https://www.netflix.com/in/login?nextpage=https%3A%2F%2Fwww.netflix.com%2Fbrowse">Register</a></button>
+            </div>
+        </div>
+        <div id="main">
+            <h1>Unlimited movies,TV shows and more.</h1>
+            <p id="p1">watch anywhere,Cancel anytime.</p>
+            <p id="p2">Ready to watch?Enter your email to create or restart your membership</p>
+            
+            <div id="limage">
+                <img src="https://tse2.mm.bing.net/th/id/OIP.MMt98N8qdwqA1ZEUniyUrQHaHa?pid=ImgDet&rs=1" width="100" height="100">
+            </div>
+            <div class="container">   
+                <form action="backend.php">
+                    <div class="form-group">
+                        <input type="text" name="" placeholder="Enter your Email Id">
+                    </div>
+                    <div class="form-group">
+                        <input type="password" name="" placeholder="Enter your password">
+                    </div>
+                    <button class="btn">Submit</button>
+                </form>
+            </div>
+        </div>
+        </div>
+</body>
+</html>
